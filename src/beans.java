@@ -10,13 +10,15 @@ public class beans {
         private double sales;
         private String genre;
 
-        public Album(String name){
+        public Album(){};
 
-                return this.name;
-                this.name = name;
-            }
-        };
+        public String getName(){
+            return this.name;
+        }
 
+        public void setName(){
+            this.name = name;
+        }
 
         public Integer getId(){
             return this.id;
