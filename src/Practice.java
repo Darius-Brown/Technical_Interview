@@ -16,7 +16,7 @@ public class Practice {
         ArrayList<String> sentence = new ArrayList<String>();
         for (String w : words) sentence.add(w);
         for (String w : more) sentence.add(w);
-        return sentence
+        return sentence;
     }
 
 // Implement an algorithm to determine if a string has all unique characters. What is you cannot use additional data structures.
