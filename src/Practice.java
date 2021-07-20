@@ -10,7 +10,8 @@ public class Practice {
 //    for (Student s : students) map.put(s.getId(),s);
 //    return map;
 //}
-// example hash map
+// example hash maps
+//
 
     public static ArrayList<String> merge(String[] words, String[] more) {
         ArrayList<String> sentence = new ArrayList<String>();
